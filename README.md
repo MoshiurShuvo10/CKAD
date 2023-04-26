@@ -1,5 +1,5 @@
 # CKAD
-## RBAC
+## RBAC 
 1. Inspect the environment and identify the authorization modes configured on the cluster.
 
     <details>
@@ -146,3 +146,17 @@ list pods in the default namespace.
 
     </p>
     /details>
+
+    
+## Cluster Role
+    
+10. How many ClusterRoles do you see defined in the cluster?
+    <details>
+    <summary>show</summary>
+    <p>
+
+    ```k get clusterroles --no-headers | wc -l```
+
+    </p>
+    </details>
+    

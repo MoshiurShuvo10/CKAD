@@ -1,4 +1,12 @@
 # CKAD
+## POD
+1. create namespace ckad
+2. create a pod named pod1 with image 2.3.5 and expose port 80 - create this pod in namespace ckad
+3. verify pod is running
+4. if not fix, retrieve the ip of the pod
+5. run a temporary pod using busybox, shell into it and run a wget against pod1
+6. view logs of pod1
+7. delete pod1 and ckad namespace
 ## RBAC 
 1. Inspect the environment and identify the authorization modes configured on the cluster.
 
